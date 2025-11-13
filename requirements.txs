@@ -1,0 +1,3 @@
+numpy==2.3.4
+scapy @ https://github.com/secdev/scapy/archive/refs/heads/master.zip#sha256=fb63ac8eab22bbed31dd4ec372b174a5b97f86f23331ecd105104cee4247f998
+websockets==15.0.1

@@ -1,0 +1,26 @@
+[
+    {
+        "url": "/fence_decrypt",
+        "method": "POST",
+        "stats": {
+            "total_requests_recieved": 3,
+            "avg_handling_time": "0.0001862049102783203"
+        }
+    },
+    {
+        "url": "/fence_encrypt",
+        "method": "POST",
+        "stats": {
+            "total_requests_recieved": 4,
+            "avg_handling_time": "0.0003235340118408203"
+        }
+    },
+    {
+        "url": "/caesar",
+        "method": "POST",
+        "stats": {
+            "total_requests_recieved": 6,
+            "avg_handling_time": "0.00018143653869628906"
+        }
+    }
+]
