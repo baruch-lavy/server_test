@@ -3,6 +3,8 @@ from pydantic import BaseModel,Field
 import string
 import json
 import time
+
+
 app = FastAPI()
 
 
@@ -116,7 +118,8 @@ def fence_encrypt(text:str):
             even += text[i]
     encrypted = even + odd
     return {"encrypted_text":encrypted,}
-    
+
+   
 is_first_time_fence_d = True          
 @app.post("/fence/decrypt")
 def fence_encrypt(body:FenceDecrypt):
